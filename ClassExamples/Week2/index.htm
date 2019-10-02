@@ -14,17 +14,17 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Kelvin Sung</o:Author>
   <o:LastAuthor>Kelvin Sung</o:LastAuthor>
-  <o:Revision>93</o:Revision>
+  <o:Revision>94</o:Revision>
   <o:TotalTime>852</o:TotalTime>
   <o:Created>2019-09-23T01:45:00Z</o:Created>
-  <o:LastSaved>2019-10-02T20:44:00Z</o:LastSaved>
+  <o:LastSaved>2019-10-02T20:51:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>956</o:Words>
-  <o:Characters>5454</o:Characters>
+  <o:Words>955</o:Words>
+  <o:Characters>5448</o:Characters>
   <o:Company>UWB</o:Company>
   <o:Lines>45</o:Lines>
   <o:Paragraphs>12</o:Paragraphs>
-  <o:CharactersWithSpaces>6398</o:CharactersWithSpaces>
+  <o:CharactersWithSpaces>6391</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
  <o:OfficeDocumentSettings>
@@ -275,6 +275,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -361,9 +363,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Subtle 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
@@ -819,8 +825,8 @@ div.WordSection1
 	{page:WordSection1;}
  /* List Definitions */
  @list l0
-	{mso-list-id:168181317;
-	mso-list-template-ids:1461776346;}
+	{mso-list-id:136185024;
+	mso-list-template-ids:-792822290;}
 @list l0:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
@@ -1181,9 +1187,8 @@ Scene<o:p></o:p></span></p>
        editor to overlap the two<o:p></o:p></span></li>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span
-       style='mso-fareast-font-family:"Times New Roman"'>Notice: when objects do
-       not move, onTriggerStay2<span class=GramE>D(</span>) is not called
-       again.<o:p></o:p></span></li>
+       style='mso-fareast-font-family:"Times New Roman"'>Notice: when objects
+       do not move, onTriggerStay2<span class=GramE>D(</span>) is not called again.<o:p></o:p></span></li>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span
        style='mso-fareast-font-family:"Times New Roman"'>Wiggle Plane or Arrow
@@ -1653,8 +1658,8 @@ Scene<o:p></o:p></span></p>
         collide and turn early <o:p></o:p></span></li>
     <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
         auto;mso-list:l1 level4 lfo5;tab-stops:list 2.0in'><span
-        style='mso-fareast-font-family:"Times New Roman"'>large (&gt;1) to see plane
-        go off the camera and come back later<o:p></o:p></span></li>
+        style='mso-fareast-font-family:"Times New Roman"'>large (&gt;1) to see
+        plane go off the camera and come back later<o:p></o:p></span></li>
    </ul>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span class=SpellE><span
@@ -1696,8 +1701,7 @@ Scene<o:p></o:p></span></p>
   <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
       auto;mso-list:l1 level2 lfo5;tab-stops:list 1.0in'><span
       style='mso-fareast-font-family:"Times New Roman"'>Simple state on the
-      Plane. Here is the <a href="Week2/EnemyState.jpg">state transition
-      definition</a><o:p></o:p></span></li>
+      Plane. Here is the <a href="EnemyState.jpg">state transition definition</a><o:p></o:p></span></li>
   <ul type=square>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span
@@ -1727,7 +1731,8 @@ Scene<o:p></o:p></span></p>
   <ul type=square>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span
-       style='mso-fareast-font-family:"Times New Roman"'>Draw the state diagram!!<o:p></o:p></span></li>
+       style='mso-fareast-font-family:"Times New Roman"'>Draw the state
+       diagram!!<o:p></o:p></span></li>
    <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
        auto;mso-list:l1 level3 lfo5;tab-stops:list 1.5in'><span
        style='mso-fareast-font-family:"Times New Roman"'>Instance variables for
