@@ -44,6 +44,7 @@ public class InteractiveControl : MonoBehaviour {
             transform.localScale += new Vector3(kDeltaSize, kDeltaSize, 0f);
             mSizeLerp.SetLerpParms(3f, 2f);
             mSizeLerp.BeginLerp(transform.localScale, finalScale);
+            GameState.sGameState.IncLerpCount();
         }
 
         if (mSizeLerp.LerpIsActive())

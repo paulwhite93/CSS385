@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;  // for Loading Scene!!
 
 public class UserControlLogic : MonoBehaviour
 {
     public GameObject mRefPoint = null;
-
     public CameraSupport mTheCamera = null;
 
     public CameraSupport mSmallView = null;
@@ -14,6 +14,10 @@ public class UserControlLogic : MonoBehaviour
     public SliderWithEcho mVY = null;
     public SliderWithEcho mVW = null;
     public SliderWithEcho mVH = null;
+
+    public Text GameStateEcho = null;
+
+    public 
     
     // Start is called before the first frame update
     void Start()
@@ -35,6 +39,7 @@ public class UserControlLogic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             mTheCamera.ShakeCamera(new Vector2(3f, 3f));
+            GameState.sGameState.IncShakeCount();
         }
         #endregion
 
@@ -48,6 +53,7 @@ public class UserControlLogic : MonoBehaviour
         {
             SceneManager.LoadScene("NewLevel");
         }
+        GameStateEcho.text = GameState.sGameState.EchoGameState();
     }
 
     private void CheckZoom()
