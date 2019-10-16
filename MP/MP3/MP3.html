@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Kelvin Sung</o:Author>
   <o:LastAuthor>Kelvin Sung</o:LastAuthor>
-  <o:Revision>23</o:Revision>
-  <o:TotalTime>91</o:TotalTime>
+  <o:Revision>28</o:Revision>
+  <o:TotalTime>175</o:TotalTime>
   <o:Created>2019-10-09T16:40:00Z</o:Created>
-  <o:LastSaved>2019-10-09T18:45:00Z</o:LastSaved>
+  <o:LastSaved>2019-10-16T17:51:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>1191</o:Words>
-  <o:Characters>6790</o:Characters>
-  <o:Lines>56</o:Lines>
-  <o:Paragraphs>15</o:Paragraphs>
-  <o:CharactersWithSpaces>7966</o:CharactersWithSpaces>
+  <o:Words>1308</o:Words>
+  <o:Characters>7461</o:Characters>
+  <o:Lines>62</o:Lines>
+  <o:Paragraphs>17</o:Paragraphs>
+  <o:CharactersWithSpaces>8752</o:CharactersWithSpaces>
   <o:Version>16.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -272,6 +272,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="HTML Variable"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="annotation subject"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="No List"/>
@@ -358,9 +360,13 @@ xmlns="http://www.w3.org/TR/REC-html40">
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Subtle 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 1"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Balloon Text"/>
   <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
@@ -659,7 +665,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-font-charset:0;
 	mso-generic-font-family:roman;
 	mso-font-pitch:variable;
-	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+	mso-font-signature:3 0 0 0 1 0;}
 @font-face
 	{font-family:Calibri;
 	panose-1:2 15 5 2 2 2 4 3 2 4;
@@ -728,7 +734,8 @@ h1
 	mso-font-kerning:0pt;
 	font-weight:normal;}
 h2
-	{mso-style-priority:9;
+	{mso-style-noshow:yes;
+	mso-style-priority:9;
 	mso-style-qformat:yes;
 	mso-style-link:"Heading 2 Char";
 	mso-style-next:Normal;
@@ -907,6 +914,7 @@ span.Heading1Char
 	mso-themeshade:191;}
 span.Heading2Char
 	{mso-style-name:"Heading 2 Char";
+	mso-style-noshow:yes;
 	mso-style-priority:9;
 	mso-style-unhide:no;
 	mso-style-locked:yes;
@@ -1090,9 +1098,9 @@ div.WordSection1
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l1
-	{mso-list-id:385573255;
+	{mso-list-id:427118328;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-2062538708 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	mso-list-template-ids:-2144717240 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l1:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1157,9 +1165,9 @@ div.WordSection1
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l2
-	{mso-list-id:427118328;
+	{mso-list-id:438070573;
 	mso-list-type:hybrid;
-	mso-list-template-ids:-2144717240 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	mso-list-template-ids:1279062184 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l2:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1224,75 +1232,84 @@ div.WordSection1
 	text-indent:-.25in;
 	font-family:Wingdings;}
 @list l3
-	{mso-list-id:438070573;
-	mso-list-type:hybrid;
-	mso-list-template-ids:1279062184 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+	{mso-list-id:1273242994;
+	mso-list-template-ids:1989981244;}
 @list l3:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:.5in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l3:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:1.0in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:"Courier New";
+	mso-bidi-font-family:"Times New Roman";}
 @list l3:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:1.5in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l3:level4
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.0in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level5
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:2.5in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:3.0in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l3:level7
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:3.5in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:Symbol;}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level8
 	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:4.0in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:"Courier New";}
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
 @list l3:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
+	mso-level-tab-stop:4.5in;
 	mso-level-number-position:left;
 	text-indent:-.25in;
+	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l4
-	{mso-list-id:1273242994;
-	mso-list-template-ids:1989981244;}
+	{mso-list-id:1453094059;
+	mso-list-template-ids:1051363546;}
 @list l4:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
@@ -1367,290 +1384,71 @@ div.WordSection1
 	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l5
-	{mso-list-id:1453094059;
-	mso-list-template-ids:1051363546;}
+	{mso-list-id:1727099688;
+	mso-list-type:hybrid;
+	mso-list-template-ids:719634980 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
 @list l5:level1
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0B7;
-	mso-level-tab-stop:.5in;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
 	font-family:Symbol;}
 @list l5:level2
 	{mso-level-number-format:bullet;
 	mso-level-text:o;
-	mso-level-tab-stop:1.0in;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:"Courier New";
-	mso-bidi-font-family:"Times New Roman";}
+	font-family:"Courier New";}
 @list l5:level3
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:1.5in;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l5:level4
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:2.0in;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:Symbol;}
 @list l5:level5
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:2.5in;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:"Courier New";}
 @list l5:level6
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:3.0in;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 @list l5:level7
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:3.5in;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:Symbol;}
 @list l5:level8
 	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:4.0in;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
+	font-family:"Courier New";}
 @list l5:level9
 	{mso-level-number-format:bullet;
 	mso-level-text:\F0A7;
-	mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l6
-	{mso-list-id:1727099688;
-	mso-list-type:hybrid;
-	mso-list-template-ids:719634980 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l6:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
 	mso-level-tab-stop:none;
 	mso-level-number-position:left;
 	text-indent:-.25in;
-	font-family:Symbol;}
-@list l6:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l6:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l6:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l6:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l6:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l6:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l6:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l6:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l7
-	{mso-list-id:1852144283;
-	mso-list-type:hybrid;
-	mso-list-template-ids:-1521683222 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
-@list l7:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l7:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l7:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l7:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l7:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l7:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l7:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Symbol;}
-@list l7:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:"Courier New";}
-@list l7:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:none;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	font-family:Wingdings;}
-@list l8
-	{mso-list-id:2143694315;
-	mso-list-template-ids:-1356165042;}
-@list l8:level1
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0B7;
-	mso-level-tab-stop:.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Symbol;}
-@list l8:level2
-	{mso-level-number-format:bullet;
-	mso-level-text:o;
-	mso-level-tab-stop:1.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:"Courier New";
-	mso-bidi-font-family:"Times New Roman";}
-@list l8:level3
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:1.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level4
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:2.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level5
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:2.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level6
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:3.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level7
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:3.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level8
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:4.0in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
-	font-family:Wingdings;}
-@list l8:level9
-	{mso-level-number-format:bullet;
-	mso-level-text:\F0A7;
-	mso-level-tab-stop:4.5in;
-	mso-level-number-position:left;
-	text-indent:-.25in;
-	mso-ansi-font-size:10.0pt;
 	font-family:Wingdings;}
 ol
 	{margin-bottom:0in;}
@@ -1697,16 +1495,16 @@ movements:&nbsp;<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l5 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>Experience working with multiple cameras<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l5 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>Fine tuning the motion and movements resulting from
      Lerp and Shake<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l5 level1 lfo1;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l4 level1 lfo1;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>Experience working with other’s (in this case, mine)
      source code, and modify for specific functionality<o:p></o:p></span></li>
@@ -1751,7 +1549,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>The world will now
 consist of four cameras. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1763,7 +1561,7 @@ window” option on my MP3 solution. The UI text not aligned properly is ok for
 MP3.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1774,24 +1572,42 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Size = 100<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Size = 100 (</span><b
+style='mso-bidi-font-weight:normal'><span style='font-size:13.5pt;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:red'>height
+of the world window would be 200-units</span></b><span style='font-size:13.5pt;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:black'>)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Viewport, <span
-class=GramE>Anchored</span> at the lower left corner, occupies 80% of both width
-and height of the display area<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Viewport, anchored at
+the lower left corner, occupies 80% of </span><s><span style='font-size:13.5pt;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:#BFBFBF;mso-themecolor:background1;mso-themeshade:191;mso-style-textfill-fill-color:
+#BFBFBF;mso-style-textfill-fill-themecolor:background1;mso-style-textfill-fill-alpha:
+100.0%;mso-style-textfill-fill-colortransforms:lumm=75000'>both</span></s><span
+style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#BFBFBF;mso-themecolor:background1;mso-themeshade:191;
+mso-style-textfill-fill-color:#BFBFBF;mso-style-textfill-fill-themecolor:background1;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'> </span><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:black'>width and </span><span
+style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:red'>100% of </span><span style='font-size:13.5pt;
+font-family:"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";
+color:black'>height of the display area<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1800,7 +1616,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 prominently showing the cool down in between updates.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><b
@@ -1811,16 +1627,17 @@ mso-fareast-font-family:"Times New Roman";color:black'>, <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";color:black'>All Unity cameras must
-be set to <b style='mso-bidi-font-weight:normal'>Orthogonal </b>(and not Perspective)<o:p></o:p></span></p>
+be set to <b style='mso-bidi-font-weight:normal'>Orthogonal </b>(and not
+Perspective)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1831,19 +1648,19 @@ normal'> (otherwise, your objects may not be inside the view volume).</i><o:p></
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Also, make sure the scale
-is set to (1, 1, 1), and rotation is set to (0, 0, 0)<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Also, make sure the
+scale is set to (1, 1, 1), and rotation is set to (0, 0, 0)<o:p></o:p></span></p>
 
-<h2><span style='mso-fareast-font-family:"Times New Roman"'>Waypoints and Waypoint
-Cam</span><span style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:
+<h2><span style='mso-fareast-font-family:"Times New Roman"'>Waypoints and
+Waypoint Cam</span><span style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:
 "Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1852,17 +1669,17 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Upon collision with Eggs,
-they shake at a frequency of 10 cycles per second, for a varied duration and
-magnitude<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Upon collision with
+Eggs, they shake at a frequency of 10 cycles per second, for a varied duration
+and magnitude<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1871,16 +1688,16 @@ of 1 second, magnitude of 1x1<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Second hit shake duration
-of 2 seconds, magnitude of 2x2<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Second hit shake
+duration of 2 seconds, magnitude of 2x2<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1888,7 +1705,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>Third hit shake duration
 of 3 seconds, magnitude of 3x3<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1897,7 +1714,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1907,16 +1724,24 @@ the display area.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Camera world height is 8
-units<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Camera </span><s><span
+style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:#BFBFBF;mso-themecolor:background1;mso-themeshade:191;
+mso-style-textfill-fill-color:#BFBFBF;mso-style-textfill-fill-themecolor:background1;
+mso-style-textfill-fill-alpha:100.0%;mso-style-textfill-fill-colortransforms:
+lumm=75000'>world height is 8 units </span></s><b style='mso-bidi-font-weight:
+normal'><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:red'>size is 8 units, or world
+window height is 16 units</span></b><span style='font-size:13.5pt;font-family:
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1928,7 +1753,7 @@ style='mso-bidi-font-style:normal'>(false)</i>]<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1936,39 +1761,39 @@ mso-fareast-font-family:"Times New Roman";color:black'>Life time<o:p></o:p></spa
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
-font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
-Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
-</span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Waypoint cam will be enabled
-and focused <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
-normal'>immediately</i></b> on the first waypoint that begins the shaking process
-<o:p></o:p></span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";color:black'>Waypoint cam will be
-disabled again when the shaking process is done<o:p></o:p></span></p>
+enabled and focused <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+normal'>immediately</i></b> on the first waypoint that begins the shaking
+process <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
+Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:black'>Waypoint cam will be disabled
+again when the shaking process is done<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";color:black'>When two waypoints are
-shaking simultaneously (shoot at one, and before it is done shaking, shoot another
-one), the Waypoint Cam only response to the first one that went into Shaking
-and its operation is completely unrelated to the second shaking waypoint. <span
-style='mso-spacerun:yes'> </span><o:p></o:p></span></p>
+shaking simultaneously (shoot at one, and before it is done shaking, shoot
+another one), the Waypoint Cam only response to the first one that went into
+Shaking and its operation is completely unrelated to the second shaking
+waypoint.<span style='mso-spacerun:yes'>  </span><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -1979,7 +1804,7 @@ label clearly indicating this cam and its state (active or disabled)<o:p></o:p><
 style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -1988,18 +1813,18 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";color:black'>All enemies are always
-spawned within the view of the <span class=SpellE>MainCamera</span>. My implementation
-<span class=GramE>spawns</span> enemy randomly within 80% of the height and
-width of the <span class=SpellE>MainCamera</span> view. <o:p></o:p></span></p>
+spawned within the view of the <span class=SpellE>MainCamera</span>. My
+implementation <span class=GramE>spawns</span> enemy randomly within 80% of the
+height and width of the <span class=SpellE>MainCamera</span> view. <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2007,7 +1832,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>For testing purposes<o:p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2017,7 +1842,7 @@ style='mso-bidi-font-weight:normal'>MUCH slower </b>(for testing purposes), at
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2027,16 +1852,16 @@ both size change and rotation duration to be 25 frames (instead of the 120 and
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>There can only be exactly
-5 enemies in the scene<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>There can only be
+exactly 5 enemies in the scene<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2044,17 +1869,17 @@ mso-fareast-font-family:"Times New Roman";color:black'>Hit response: <o:p></o:p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Upon collision with eggs,
-enemy is pushed and Lerp in the direction of the egg (<span class=SpellE><span
+mso-fareast-font-family:"Times New Roman";color:black'>Upon collision with
+eggs, enemy is pushed and Lerp in the direction of the egg (<span class=SpellE><span
 class=GramE>transform.up</span></span>)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2064,7 +1889,7 @@ class=SpellE>TimedLerp</span> rate)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:2.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;
 color:black'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2073,7 +1898,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>Position = Position +
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2081,7 +1906,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>Transition into Egg
 State: Push by 8 units, again, settling in about 2 seconds at a rate of 2 <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2090,17 +1915,17 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Viewport location is located
-right on top of the <span class=SpellE>WayPoint</span> Cam, width is 20% and
-height is 30% of the display area.<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Viewport location is
+located right on top of the <span class=SpellE>WayPoint</span> Cam, width is
+20% and height is 30% of the display area.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2109,7 +1934,7 @@ variable (refer to the following)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2118,7 +1943,7 @@ disabled (not showing anything)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2126,18 +1951,18 @@ mso-fareast-font-family:"Times New Roman";color:black'>Life time<o:p></o:p></spa
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Enemy cam will be enabled
-and focused <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
+mso-fareast-font-family:"Times New Roman";color:black'>Enemy cam will be
+enabled and focused <b style='mso-bidi-font-weight:normal'><i style='mso-bidi-font-style:
 normal'>immediately</i></b> on the first chasing enemy <b style='mso-bidi-font-weight:
 normal'><i style='mso-bidi-font-style:normal'>and </i></b>the hero<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2147,7 +1972,7 @@ collision with the hero, OR, bring hit by an egg). <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2155,7 +1980,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>When alive, <o:p></o:p></
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:2.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;
 color:black'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2164,7 +1989,7 @@ set to the distance between the chasing enemy and hero<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:2.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level5 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level5 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2174,7 +1999,7 @@ class=GramE>).magnitude</span><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:2.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level4 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;
 color:black'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2183,7 +2008,7 @@ be the middle between the chasing enemy and the hero<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:2.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level5 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level5 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2193,7 +2018,7 @@ class=SpellE>heroPosition</span> + <span class=SpellE>enemyPosition</span>) *
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
@@ -2206,7 +2031,7 @@ disabled? <o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2223,29 +2048,34 @@ be active and always focusing on the hero.<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>Viewport location is right on top of the enemy cam, as
      others, width and height <span class=GramE>is</span> 20%x30% of display
      width and height<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>Hero cam lerps after the mouse movement, with a
      duration of 0.5 seconds (quick!), and <span class=SpellE>TimeLerp</span>
      rate of 8<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
-     "Times New Roman"'>When eggs are spawn, hero cam goes into shake with
-     default camera shaking parameters and magnitude of 1x1<o:p></o:p></span></li>
+     "Times New Roman"'>When eggs are spawn, hero cam goes into shake with default
+     camera shaking parameters and magnitude of 1x1<o:p></o:p></span></li>
+ <li class=MsoNormal style='color:red;mso-margin-top-alt:auto;mso-margin-bottom-alt:
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
+     style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+     "Times New Roman"'>Hero cam size is 8 (with world window height of 16
+     units)<o:p></o:p></span></li>
 </ul>
 
 <h2><span style='mso-fareast-font-family:"Times New Roman"'>Hints</span><span
 style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l0 level1 lfo10'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l0 level1 lfo4'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2254,7 +2084,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 most straightforward, then waypoint cam, and last on enemy cam.<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l3 level1 lfo7'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo5'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2266,8 +2096,8 @@ class=SpellE>TimedLerp</span>, and <span class=SpellE>ShapePosition</span> to
 support what is described. This is by design, you need to receive code given to
 you, owe it, and modify it to suit what you need.<o:p></o:p></span></p>
 
-<p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l3 level1 lfo7'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo5'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2275,6 +2105,29 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 "Times New Roman";color:black'>The given hints on how to compute positions and
 directions are all based on simple Vector math. ASK ME if you don’t understand,
 and, be inspired and go take a course on linear algebra. <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l2 level1 lfo5'><![if !supportLists]><span
+style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:red'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:red'>When a camera is shut off, don’t worry if it is
+stuck with the last frame shown and not showing black.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
+mso-list:l2 level2 lfo5'><![if !supportLists]><span style='font-size:13.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:red'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:red'>Greg has a simple and smart
+workaround for this problem. Simply define another camera with an overlapping
+viewport with world window slight <i style='mso-bidi-font-style:normal'>behind </i>the
+corresponding camera. In this way, when you enable the camera in the front
+(e.g., the enemy cam) it will block the camera viewport of the back camera, and
+when the front camera is disable, the back-camera will show through. If you don’t
+understand this, no worries. <o:p></o:p></span></p>
 
 <h1><span style='mso-fareast-font-family:"Times New Roman"'>Credit Distribution<o:p></o:p></span></h1>
 
@@ -2293,7 +2146,7 @@ normal'><span style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:
 "Times New Roman"'><o:p></o:p></span></b></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2306,7 +2159,16 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 "Times New Roman";color:black'>)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:red'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:red'>By “reasonable” I mean,
+with 1600x900 resolution, the UI text are located at places that make sense.<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2315,7 +2177,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 class=SpellE>Viewper</span> (lower-left corner and 80% of width/height)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2328,7 +2190,7 @@ style='mso-bidi-font-weight:normal'><span style='font-size:13.5pt;line-height:
 105%;mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></b></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2337,7 +2199,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2346,7 +2208,7 @@ duration of 1 second, magnitude of 1x1<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2355,7 +2217,7 @@ duration of 2 seconds, magnitude of 2x2<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2363,7 +2225,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>(2%) Third hit shake
 duration of 3 seconds, magnitude of 3x3<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2372,7 +2234,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2381,7 +2243,7 @@ location<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2394,7 +2256,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2402,7 +2264,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>(2%) Initially disabled<o
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2410,7 +2272,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>Life time<o:p></o:p></spa
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2420,7 +2282,7 @@ on the first waypoint that begins the shaking process (no <span class=SpellE>ler
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2429,7 +2291,7 @@ be disabled again when the shaking process is done<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2438,12 +2300,12 @@ be a label clearly indicating this cam and its state (active or disabled)<o:p></
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:red'>Unable to enable or disable
-the cam properly: <b style='mso-bidi-font-weight:normal'>-10%</b></span><span
+mso-fareast-font-family:"Times New Roman";color:red'>Unable to enable or
+disable the cam properly: <b style='mso-bidi-font-weight:normal'>-10%</b></span><span
 style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";color:black'><o:p></o:p></span></p>
 
@@ -2453,7 +2315,7 @@ normal'><span style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:
 "Times New Roman"'><o:p></o:p></span></b></h2>
 
 <p class=MsoListParagraphCxSpFirst style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2462,12 +2324,12 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Always spawned within the
-<span class=SpellE>MainCamera</span>. (</span><b style='mso-bidi-font-weight:
+mso-fareast-font-family:"Times New Roman";color:black'>Always spawned within
+the <span class=SpellE>MainCamera</span>. (</span><b style='mso-bidi-font-weight:
 normal'><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
 mso-fareast-font-family:"Times New Roman";color:red'>-20% if this is not true</span></b><span
 style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
@@ -2475,7 +2337,7 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2488,7 +2350,7 @@ color:black'>)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2497,7 +2359,7 @@ style='mso-bidi-font-weight:normal'>MUCH slower </b><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2505,7 +2367,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>State durations: Short!<o
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2514,15 +2376,16 @@ in the scene<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>Hit response with an Egg:<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>Hit response with an
+Egg:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2530,7 +2393,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>(4%) First Hit: Lerp<o:p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2538,7 +2401,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>(3%) Second Hit: Lerp
 (twice as far)<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l6 level1 lfo2'><![if !supportLists]><span
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l5 level1 lfo2'><![if !supportLists]><span
 style='font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2547,25 +2410,25 @@ style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-fam
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>(5%) Viewport location and
-size<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>(5%) Viewport location
+and size<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:black'>(10%) Camera world zoom to
-include both chasing enemy and hero<o:p></o:p></span></p>
+mso-fareast-font-family:"Times New Roman";color:black'>(10%) Camera world zoom
+to include both chasing enemy and hero<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2573,7 +2436,7 @@ mso-fareast-font-family:"Times New Roman";color:black'>Life time<o:p></o:p></spa
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2584,7 +2447,7 @@ style='mso-bidi-font-style:normal'>and </i></b>the hero (no <span class=SpellE>l
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.5in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level3 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:Wingdings;mso-fareast-font-family:Wingdings;mso-bidi-font-family:
 Wingdings;color:black'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2593,7 +2456,7 @@ the enemy cam<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
@@ -2602,18 +2465,18 @@ be a label clearly indicating this cam and its state (active or disabled)<o:p></
 
 <p class=MsoListParagraphCxSpMiddle style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><span style='font-size:13.5pt;font-family:"Times New Roman",serif;
-mso-fareast-font-family:"Times New Roman";color:red'>Unable to enable or disable
-the cam properly: <b style='mso-bidi-font-weight:normal'>-10%</b></span><span
+mso-fareast-font-family:"Times New Roman";color:red'>Unable to enable or
+disable the cam properly: <b style='mso-bidi-font-weight:normal'>-10%</b></span><span
 style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
 "Times New Roman";color:black'><o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
 auto;margin-left:1.0in;mso-add-space:auto;text-indent:-.25in;line-height:normal;
-mso-list:l6 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
+mso-list:l5 level2 lfo2'><![if !supportLists]><span style='font-size:13.5pt;
 font-family:"Courier New";mso-fareast-font-family:"Courier New";color:black'><span
 style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
 </span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
@@ -2630,7 +2493,7 @@ normal'><span style='font-size:13.5pt;line-height:105%;mso-fareast-font-family:
 "Times New Roman"'><o:p></o:p></span></b></h2>
 
 <p class=MsoListParagraph style='mso-margin-top-alt:auto;mso-margin-bottom-alt:
-auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l4 level1 lfo3;
+auto;mso-add-space:auto;text-indent:-.25in;line-height:normal;mso-list:l3 level1 lfo3;
 tab-stops:list .5in'><![if !supportLists]><span style='font-size:10.0pt;
 mso-bidi-font-size:13.5pt;font-family:Symbol;mso-fareast-font-family:Symbol;
 mso-bidi-font-family:Symbol;color:black'><span style='mso-list:Ignore'>·<span
@@ -2641,15 +2504,15 @@ and focusing on the hero<o:p></o:p></span></p>
 
 <ul type=disc>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>(2%) Viewport location and size<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>(10%) Proper Lerp setting (response quickly)<o:p></o:p></span></li>
  <li class=MsoNormal style='color:black;mso-margin-top-alt:auto;mso-margin-bottom-alt:
-     auto;line-height:normal;mso-list:l4 level1 lfo3;tab-stops:list .5in'><span
+     auto;line-height:normal;mso-list:l3 level1 lfo3;tab-stops:list .5in'><span
      style='font-size:13.5pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
      "Times New Roman"'>(5%) Proper egg spawn shaking<o:p></o:p></span></li>
 </ul>
@@ -2657,7 +2520,7 @@ and focusing on the hero<o:p></o:p></span></p>
 <h2><b style='mso-bidi-font-weight:normal'><span style='mso-fareast-font-family:
 "Times New Roman"'>Proper Submission (5%)<o:p></o:p></span></b></h2>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l2 level1 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-size:13.5pt;line-height:105%;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2665,7 +2528,7 @@ style='font-size:13.5pt;line-height:105%;font-family:"Times New Roman",serif;
 mso-ascii-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
 mso-bidi-theme-font:minor-fareast'>(5%) One zipped file submission<o:p></o:p></span></p>
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l2 level1 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-size:13.5pt;line-height:105%;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
@@ -2673,7 +2536,7 @@ style='font-size:13.5pt;line-height:105%;font-family:"Times New Roman",serif;
 mso-ascii-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
 mso-bidi-theme-font:minor-fareast'>(5%) Able to double click on EXE to run<o:p></o:p></span></p>
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l2 level1 lfo8'><![if !supportLists]><span
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l1 level1 lfo6'><![if !supportLists]><span
 style='font-size:13.5pt;line-height:105%;font-family:Symbol;mso-fareast-font-family:
 Symbol;mso-bidi-font-family:Symbol'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
