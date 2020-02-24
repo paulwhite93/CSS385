@@ -15,7 +15,7 @@ body {
 
 /* Style the header */
 header {
-  background-color: #444;
+  background-color: #426;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -76,6 +76,35 @@ h3 {font-size: 22px;
 text-align: justify;
 }
 
+/*header CSS styling*/
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #213;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #d3a302;
+  color: white;
+}
+
 </style>
 </head>
 <body>
@@ -83,9 +112,16 @@ text-align: justify;
 
 
 <header>
-  <h2>CSS 385 - Introduction to Game Development</h2>
+  <img src="uwlogo.png" width="600" height="103" align="left"><br><br>
+  <h2> CSS 385 - Introduction to Game Development</h2>
   <h3>This class examines the fundamental issues in designing and developing computer video games. We begin with examining technical issues in developing a game including: software architecture, interaction model, mathematics concepts, real-time approximation for Newtonian physics, elementary special effects, and algorithms relevant to supporting in-game logic. After the technical knowledge, in the second half of the quarter we examine the elements in games design including: world setting, game play, and interface; and the procedure of designing games including: conceptualization, prototyping, and playtesting.</h3>
 </header>
+<div class="topnav">
+  <a class="active" href="">Projects</a>
+  <a href="https://www.uwb.edu/">UWB</a>
+  <a href="https://www.uwb.edu/css">CSS</a>
+  <a href="http://faculty.washington.edu/ksung/">Kelvin Sung</a>
+</div>
 <hr style="border: 2px;" />
 <section>
   <nav>
