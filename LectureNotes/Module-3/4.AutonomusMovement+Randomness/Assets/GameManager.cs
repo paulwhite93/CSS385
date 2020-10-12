@@ -15,8 +15,8 @@ public class GameManager : MonoBehaviour
     // Adjust the outer and inner bound
     public SliderWithEcho mTargetSize = null;
 
-    // Start is called before the first frame update
-    void Start()
+    // Must be called before Start (GreenArrow Start depends on sGameManager being defined!)
+    void Awake()
     {
         sGameManager = this;
 
@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
     public void NewTargetSize()
     {
         ComputeTargetBound();
+        // Configured in the UI to call this function when slider bar changes
     }
 
     private void ComputeTargetBound()
